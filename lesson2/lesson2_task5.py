@@ -1,14 +1,13 @@
+
 def month_to_season(месяц):
-    if месяц < 3:
+    if месяц in [12, 1, 2]:
         return "Зима"
-    elif месяц < 6:
+    elif месяц in [3, 4, 5]:
         return "Весна"
-    elif месяц < 9:
+    elif месяц in [6, 7, 8]:
         return "Лето"
-    elif месяц < 12:
-        return "Осень"
     else:
-        return "Зима"
+        return "Осень"
 
 
 num = int(input("Введите число"))
