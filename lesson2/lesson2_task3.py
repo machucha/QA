@@ -5,6 +5,6 @@ def square(a):
     return math.ceil(a * a)
 
 
-sum = float(input("Длинна стороны - "))
-result = square(sum)
+a = float(input("Длинна стороны - "))
+result = square(a)
 print(result)
