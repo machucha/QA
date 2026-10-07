@@ -23,4 +23,5 @@ def test_navigation():
     assert driver.current_url == (
         "https://httpbin.qa-territory.online/"
     )
-    driver.quit
+
+    driver.quit()
