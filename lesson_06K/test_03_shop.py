@@ -36,6 +36,8 @@ def test_shop():
     click_button = driver.find_element(
             By.CSS_SELECTOR, ".shopping_cart_link")
     click_button.click()
+    
+    wait.until(EC.element_to_be_clickable((By.ID, "checkout"))).click()
 
     click_button = driver.find_element(
             By.ID, "checkout")
