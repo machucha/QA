@@ -1,0 +1,7 @@
+# Результаты и отчёты Allure внутри lesson_10
+allure-results/
+allure-report/
+
+# Python-кэш
+__pycache__/
+*.pyc
